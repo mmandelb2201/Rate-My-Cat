@@ -943,9 +943,9 @@ class CatViewController: UIViewController{
     }
     func getStar(L: Int, D: Int) -> UIImage{
         if L + D != 0{
-            var lD : Float = Float(L)
-            var dD : Float = Float(D)
-            var percentL : Float = Float((lD/(lD+dD))*100)
+            let lD : Float = Float(L)
+            let dD : Float = Float(D)
+            let percentL : Float = Float((lD/(lD+dD))*100)
             print("percentL: \(percentL) l: \(lD) d: \(dD)")
             if percentL < self.one {return UIImage(named: "oneStar")!}
             else if percentL >= self.one && percentL < self.two {return UIImage(named: "twoStar")!}

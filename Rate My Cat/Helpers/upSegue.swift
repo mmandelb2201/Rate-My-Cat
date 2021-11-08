@@ -18,10 +18,6 @@ class upSegue : UIStoryboardSegue {
         let toViewController = self.destination
         let fromViewController = self.source
         
-        /*UIView.animate(withDuration: 0.01, delay: 0, options: .transitionFlipFromBottom, animations: {
-            toViewController.view.transform = CGAffineTransform.identity
-        }) { (success) in
-        }*/
         fromViewController.present(toViewController, animated: false, completion: nil)
         
     }

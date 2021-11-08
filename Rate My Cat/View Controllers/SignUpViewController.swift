@@ -56,7 +56,6 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         view.backgroundColor = .white
         super.viewDidLoad()
         setUpElements()
-        // Do any additional setup after loading the view.
     }
     func setUpElements(){
         self.selectBoxLablel.textColor = .black
@@ -79,15 +78,6 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     func validateFields() -> String? {
         if self.isCheckBoxSelected == false{
             return "Please select the check box to agree to our terms of use"
@@ -138,11 +128,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
                     }
                 }
             }
-            // Handle Errors here.
-
         }
-        //create user
-        //transition to home screen
         
     }
     func createUser(usr : String, id : String){

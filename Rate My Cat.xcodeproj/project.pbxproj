@@ -98,7 +98,6 @@
 		E57A076724256F86006233B9 /* Rate My Cat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rate My Cat.entitlements"; sourceTree = "<group>"; };
 		E5841C592571B19C00CCE862 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		E59174AE241B30AA0066C695 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		E5B11D0424174A8F0061E764 /* rate-my-cat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rate-my-cat.mp4"; sourceTree = "<group>"; };
 		E5BD1AA824928CF200CFC8E3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		E5BF6B3F23EBE01500E5B4BB /* UpdateCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCatViewController.swift; sourceTree = "<group>"; };
 		E5CCA1B523E20D5400180F63 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -199,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				E52B11D02717A2FB002C8BFF /* GoogleService-Info.plist */,
-				E5B11D0424174A8F0061E764 /* rate-my-cat.mp4 */,
 				E5F13B8E23D9F5DB003B8B36 /* Rate My Cat */,
 				E5F13BA523D9F5DF003B8B36 /* Rate My CatTests */,
 				E5F13BB023D9F5DF003B8B36 /* Rate My CatUITests */,
