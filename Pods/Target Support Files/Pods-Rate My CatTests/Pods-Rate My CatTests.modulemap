@@ -1,0 +1,6 @@
+framework module Pods_Rate_My_CatTests {
+  umbrella header "Pods-Rate My CatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
